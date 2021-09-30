@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE questions[
+  <!ELEMENT questions (question*,info)>
+  <!ELEMENT question (title?,cases*)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT cases (case*)>
+  <!ELEMENT case (#PCDATA)>
+  <!ELEMENT info (#PCDATA)>
+  <!ATTLIST question id CDATA #IMPLIED>
+  <!ATTLIST case flag CDATA #IMPLIED>
+]> 
+<questions>
+  <question id="2">
+    <title>Что означает аббревиатура XML?</title>
+    <cases>      
+      <case>большой язык разметки</case>
+      <case flag="true">расширяемый язык разметки</case>
+      <case>размер одежды</case>
+    </cases>
+  </question>
+  <question/>
+  <info><![CDATA[<mark>XML</mark>]]></info>
+</questions>

@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="courses">
+        <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="course">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="courseName"/>
+                            <xs:element name="duration" type="xs:positiveInteger"/>
+                            <xs:element name="date_begin" type="xs:string"/>
+                            <xs:element name="teacher" type="xs:string"/>
+                            <xs:element name="format" type="format"/>
+                        </xs:sequence>      
+                        <xs:attribute name="id" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="format">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ordinary"/>
+            <xs:enumeration value="open"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="courseName">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

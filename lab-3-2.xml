@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Создайте файлы lab-3-2.xml и lab-3-2.xsd.
+Первый должен хранить расписание текущих занятий, а второй схему для этого расписания (напишите самостоятельно или найдите вариант в интернете)
+Используйте правила из второй части занятия
+-->
+<!-- schedules>lesson[num="$"]*4>begin{10:00}+end{17:10}+(theams>theam[num="$"]*2>lorem3) -->
+<schedules
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lab-3-2.xsd"
+>
+    <lesson num="1">
+        <begin>10:00</begin>
+        <end>17:10</end>
+        <theams>
+            <theam num="1">Lorem, ipsum dolor.</theam>
+            <theam num="2">Corrupti, possimus aspernatur.</theam>
+        </theams>
+    </lesson>
+    <lesson num="2">
+        <begin>10:00</begin>
+        <end>17:10</end>
+        <theams>
+            <theam num="1">Lorem, ipsum dolor.</theam>
+            <theam num="2">Velit, labore dolore.</theam>
+        </theams>
+    </lesson>
+    <lesson num="3">
+        <begin>10:00</begin>
+        <end>17:10</end>
+        <theams>
+            <theam num="1">Lorem, ipsum dolor.</theam>
+            <theam num="2">Qui, magnam impedit.</theam>
+        </theams>
+    </lesson>
+    <lesson num="4">
+        <begin>10:00</begin>
+        <end>17:10</end>
+        <theams>
+            <theam num="1">Lorem, ipsum dolor.</theam>
+            <theam num="2">Ratione, esse impedit.</theam>
+        </theams>
+    </lesson>
+</schedules>

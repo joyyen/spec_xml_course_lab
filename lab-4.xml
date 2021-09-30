@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="lab-4.xsl" type="text/xsl"?>
+<courses>
+<!-- Создайте XML-файл с именем lab3.xsd
+Опишите схему для документа с данными о курсах: название курса, длительность (ак. часов), дата проведения, преподаватель.
+Создайте файл lab3.xml с данными, соответствующий XML-схеме
+подключите схему и убедитесь в корректности lab3.xml
+Воспользуйтесь сервисами для проверки соответствия схемы и документа, и проверьте корректность XML-файла -->
+    <course id='18085'>
+        <name>Курс 1</name>
+        <duration>10</duration>
+        <date_begin>01.01.2021</date_begin>
+        <teacher>Иванов Иван</teacher>
+        <format>ordinary</format>
+    </course>
+    <course id='15005'>
+        <name>Курс 22</name>
+        <duration>8</duration>
+        <date_begin>10.11.2021</date_begin>
+        <teacher>Петров Пётр</teacher>
+        <format>open</format>
+    </course>
+    <course id='12001'>
+        <name>Курс 3</name>
+        <duration>4</duration>
+        <date_begin>05.08.2021</date_begin>
+        <teacher>Васильев Василий</teacher>
+        <format>open</format>
+    </course>
+</courses>

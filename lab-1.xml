@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <!-- и XML-разметкой, содержащей ошибки: -->
+<questions>
+  <question id="2">
+    <title>Что означает аббревиатура XML?</title>
+    <cases>      
+      <case>большой язык разметки</case>
+      <case flag="true">расширяемый язык разметки</case>
+      <case>размер одежды</case>
+    </cases>
+  </question>
+  <question/>
+  <info><![CDATA[<mark>XML</mark>]]></info>
+</questions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="lab-4-2.xsl" type="text/xsl"?>
+<books>
+    <book uid='7ece460d-7478-4af7-a3e2-c222c523f2b5'>
+        <title>XML</title>
+        <autor>Кто-то</autor>
+        <price>1234.56</price>
+        <pubyear />
+    </book>
+    <book uid="2a62f907-1a65-4cd3-8b38-41d308e40b04">
+        <title>JavaScript</title>
+        <autor>Иван Иванов</autor>
+        <price>2345.67</price>
+    </book>
+</books>

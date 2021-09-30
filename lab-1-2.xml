@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- xmlns="http://somesite.some/questions" -->
+<questions 
+    xmlns='http://somesite.some/collection'
+   xmlns:m='http://somesite.some/questions/multiple'
+   xmlns:f='http://somesite.some/questions/free'
+   xmlns:s='http://somesite.some/questions/simple'>
+<!-- item[type=""]*3>name+case*3 -->
+<m:item type="multiple">
+    <m:name>URI бывают?</m:name>
+    <m:case flag="true">URN</m:case>
+    <m:case flag="true">URL</m:case>
+    <m:case>UML</m:case>
+</m:item>
+<f:item type="free">
+    <f:name>Что такое XML?</f:name>
+    <f:case>расширяемый язык разметки данных</f:case>
+</f:item>
+<s:item type="simple">
+    <s:name>Применяется ли XML при сериализации данных?</s:name>
+    <s:case flag="true">Да</s:case>
+    <s:case>Нет</s:case>
+</s:item>
+</questions>

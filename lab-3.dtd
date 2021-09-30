@@ -1,0 +1,9 @@
+<!ELEMENT questions (question*,info)>
+<!ELEMENT question (title?,cases*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT cases (case*)>
+<!ELEMENT case (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ATTLIST question id CDATA #IMPLIED>
+<!ATTLIST case flag CDATA #IMPLIED>
+
